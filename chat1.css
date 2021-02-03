@@ -1,0 +1,173 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightpink;
+}
+
+h1{
+    background-color: rgba(219, 101, 5, 0.603);
+    width: 1050px;
+    height: 40px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.headercontainer{
+    margin: 0px 170px 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.chats{
+    margin: 0px 170px 0px 150px;
+    border-radius: 7px;
+    margin: 100px 200px 0px 140px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.user1chats{
+    border: 2px solid rgba(128, 255, 0, 0.603);
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
+    background-color: rgba(134, 155, 98, 0.637);
+    }
+.userSection{
+    position: relative;
+    top: -25px;
+    width: 90%;
+}
+
+.userSection .users{
+    list-style: none;
+    background-color:  rgba(204, 216, 30, 0.493);
+    width: 70px;
+    height: 100px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.userSection .users li{
+    cursor: pointer;
+}
+
+.user2chats{
+    border: 2px solid rgba(0, 255, 213, 0.829);
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    background-color: rgba(134, 155, 98, 0.637);
+    }
+.user3chats{
+    border: 2px solid rgba(0, 255, 213, 0.829);
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    background-color: rgba(134, 155, 98, 0.637);
+    }
+
+#mySMS-sent{
+    background-color: rgba(0, 255, 179, 0.384);
+    width: 150px;
+    border-radius: 3px;
+    height: fit-content;
+    text-align: center;
+}
+
+#SMS-Received{
+    position: relative;
+    background-color: rgba(184, 44, 160, 0.548);
+    right: -50%;
+    width: 150px;
+    height: fit-content;
+    border-radius: 3px;
+    text-align: left;
+    align-self: right;
+}
+
+#SmySMS-sent{
+    background-color: rgba(0, 255, 179, 0.384);
+    width: 150px;
+    border-radius: 3px;
+    height: fit-content;
+    text-align: center;
+}
+
+#SSMS-Received{
+    position: relative;
+    background-color: rgba(202, 153, 194, 0.548);
+    right: -50%;
+    width: 150px;
+    height: fit-content;
+    border-radius: 3px;
+    text-align: left;
+    align-self: right;
+}
+
+#TmySMS-sent{
+    background-color: rgba(0, 255, 179, 0.384);
+    width: 150px;
+    border-radius: 3px;
+    height: fit-content;
+    text-align: center;
+}
+
+#TSMS-Received{
+    position: relative;
+    background-color: rgba(202, 153, 194, 0.548);
+    right: -50%;
+    width: 150px;
+    height: fit-content;
+    border-radius: 3px;
+    text-align: left;
+    align-self: right;
+}
+
+h3{
+    margin-top: -60px;
+}
+
+.userImg{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -80px;
+}
+
+.image1{
+    height: 100px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.image2{
+    height: 100px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.image3{
+    height: 100px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.dummy{
+    width: 450px;
+    background-color: rgba(219, 101, 5, 0.603);
+    border-radius: 15px;
+}
+.imgSection{
+    border: 2px solid rgba(138, 132, 132, 0.26);
+    width: 40%;
+}
+
+button{
+    height: 25px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
